@@ -1,4 +1,5 @@
 # MyNoteL
+docker compose up -d
 
 # login
 admin/admin
