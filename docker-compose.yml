@@ -1,5 +1,3 @@
-version: '3.8.0'
-
 services:
   mynote:
     image: andy1985stan/mynote:0.37.0
