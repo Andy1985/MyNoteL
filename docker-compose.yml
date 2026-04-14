@@ -5,12 +5,12 @@ services:
     ports:
       - "127.0.0.1:8080:9100"
     volumes:
-      - ~/Documents/MyNote/database:/app/database
-      - ~/Documents/MyNote/logs:/app/logs
-      - ~/Documents/MyNote/media:/app/media
-      - ~/Documents/MyNote/tmp:/app/tmp
-      - ~/Documents/MyNote/uploads:/app/uploads
-      - ~/Documents/MyNote/gemini_root:/root/.gemini
-      - ~/Documents/MyNote/gemini_app:/app/.gemini
-      - ~/Documents/MyNote/crontabs:/var/spool/cron/crontabs
+      - ~/Documents/MyNoteL/database:/app/database
+      - ~/Documents/MyNoteL/logs:/app/logs
+      - ~/Documents/MyNoteL/media:/app/media
+      - ~/Documents/MyNoteL/tmp:/app/tmp
+      - ~/Documents/MyNoteL/uploads:/app/uploads
+      - ~/Documents/MyNoteL/gemini_root:/root/.gemini
+      - ~/Documents/MyNoteL/gemini_app:/app/.gemini
+      - ~/Documents/MyNoteL/crontabs:/var/spool/cron/crontabs
     restart: unless-stopped
