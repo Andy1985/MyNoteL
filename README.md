@@ -6,3 +6,6 @@ admin/admin
 
 # configure
 GEMINI_API_KEY
+
+# logic
+workspace->folder->task
