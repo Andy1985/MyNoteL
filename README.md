@@ -10,4 +10,4 @@ admin/admin
 GEMINI_API_KEY
 
 # logic
-workspace->folder->task
+workspace->group->record
