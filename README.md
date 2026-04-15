@@ -2,6 +2,7 @@
 docker compose up -d
 
 # login
+http://localhost:8080
 admin/admin
 
 # configure
